@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Blogs by Azharul Islam</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+
+        <!-- script file -->
+        <script defer src="./js/function.js"></script>
+        <script defer src="./js/script.js"></script>
+    </head>
+
+    <body>
+        <header class="max-w-7xl mx-auto">
+            <div class="p-5 mt-12 bg-blue-100 rounded-lg">
+                <div class="flex justify-between select-none">
+                    <div>
+                        <h1 class="text-3xl font-semibold animate-bounce ">Blogs</h1>
+                        <h1>by Azharul Islam</h1>
+                    </div>
+                    <form action="./index.html"
+                        class="cursor-pointer pt-4 pl-7 pr-7 bg-blue-700 rounded-full text-center text-white font-semibold hover:bg-slate-900 transition-all">
+                        <input type="submit" class="hover:animate-pulse cursor-pointer"
+                            value=" Go to Geometry Genius" />
+                    </form>
+                </div>
+            </div>
+        </header>
+        <div class="container max-w-2xl mx-auto px-3">
+            <header>
+                <div class="pt-16 pb-2 my-3">
+                    <h1 class="text-4xl font-bold border-b pb-5">Questions from <a class="text-blue-700"
+                            href="#">Assignment-05</a></h1>
+
+                </div </header>
+                <main class="cursor-default">
+                    <div class="py-4">
+                        <h2 class="text-xl font-bold text-slate-800 hover:text-blue-700 hover:animate-pulse">
+                            1. What is DOM and what is the purpose of DOM?</h2>
+                        <p class="text-gray-700 pt-3 text-justify  select-none">The Document Object Model (DOM) is a
+                            programming
+                            interface for web
+                            documents. It represents the page so that programs can change the document structure, style,
+                            and content. The DOM represents the document as nodes and objects; that way, programming
+                            languages can interact with the page.</p>
+                    </div>
+                    <div class="py-4">
+                        <h2 class="text-xl font-bold text-slate-800 hover:text-blue-700 hover:animate-pulse">
+                            2. How will you select HTML elements using DOM? Name the DOM methods.</h2>
+                        <p class="mb-2 text-gray-700 pt-3 text-justify  select-none"> I will select HTML elements by
+                            using
+                            any of the six
+                            methods provided by JavaScript. The six methods are:</p>
+                        <ul class="list-disc list-inside ">
+                            <li
+                                class="pl-5 mb-2 rounded hover:text-blue-700 hover:font-semibold hover:bg-sky-100 select-none">
+                                getElementById()
+                            </li>
+                            <li
+                                class="pl-5 mb-2 rounded hover:text-blue-700 hover:font-semibold hover:bg-sky-100 select-none">
+                                getElementsByTagName()</li>
+                            <li
+                                class="pl-5 mb-2 rounded hover:text-blue-700 hover:font-semibold hover:bg-sky-100 select-none">
+                                getElementsByClassName()</li>
+                            <li
+                                class="pl-5 mb-2 rounded hover:text-blue-700 hover:font-semibold hover:bg-sky-100 select-none">
+                                querySelector()
+                            </li>
+                            <li
+                                class="pl-5 mb-2 rounded hover:text-blue-700 hover:font-semibold hover:bg-sky-100 select-none">
+                                querySelectorAll()
+                            </li>
+                            <li
+                                class="pl-5 mb-2 rounded hover:text-blue-700 hover:font-semibold hover:bg-sky-100 select-none">
+                                name.item()
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="py-4">
+                        <h2 class="text-xl font-bold text-slate-800 hover:text-blue-700 hover:animate-pulse">
+                            3. What is event bubble?</h2>
+                        <p class="text-gray-700 pt-3 text-justify select-none">
+                            Event bubbling is a mechanism in which an event is triggered on a child element and then
+                            propagated to its parent element. This process continues until the event reaches the root
+                            element of the DOM tree. </br><br>
+
+
+                            Event bubbling is the opposite of event capturing. In event capturing, the event is first
+                            captured by the outermost element and propagated to the inner elements.
+
+                            Event bubbling is the default behavior of event propagation in HTML. It can be prevented by
+                            using the <span
+                                class="font-medium text-stone-800 hover:text-rose-500 hover:animate-pulse">stopPropagation()</span>
+                            method.
+
+                        </p>
+                    </div>
+                    <div class="py-4">
+                        <h2 class="text-xl font-bold text-slate-800 hover:text-blue-700 hover:animate-pulse">
+                            4. What is a callback function and why will you use it?
+                        </h2>
+                        <p class="text-gray-700 pt-3 text-justify select-none">
+                            A callback function is a function passed into another function as an argument, which is then
+                            invoked inside the outer function to complete some kind of routine or action. </br><br>
+                            Callbacks make sure that a function is not going to run before a task is completed but will
+                            run right after the task has completed. It helps us develop asynchronous JavaScript code and
+                            keeps us safe from problems and errors. </br><br>
+                            Callbacks are used to make sure that certain code does not execute until other code has
+                            already finished execution. </br><br>
+
+                        </p>
+                    </div>
+
+                </main>
+
+        </div>
+
+
+    </body>
+
+</html>
